@@ -1,11 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Garena Free Fire Team</title>
+<title>VIP Proxy Server</title>
 
 <style>
 
@@ -17,41 +16,36 @@
 
 body{
     font-family:Arial,Helvetica,sans-serif;
-    background:#f3f3f3;
+    background:#f4f5f7;
     color:#111;
 }
 
+.activity{
+    background:#ffffff;
+    padding:12px 10px;
+    font-size:13px;
+    font-weight:bold;
+    line-height:1.7;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
 .container{
-    width:100%;
     max-width:520px;
     margin:auto;
+    background:white;
     min-height:100vh;
-    background:#fff;
     padding-bottom:30px;
 }
 
-/* TOP TITLE */
-
-.top-title{
-    text-align:center;
-    font-size:18px;
-    font-weight:800;
-    padding:16px 10px;
-    border-bottom:1px solid #ddd;
-}
-
-/* WATCH FULL VIDEO */
-
-.watch-title{
+.watch{
     text-align:center;
     font-size:24px;
     font-weight:900;
-    margin:22px 0 14px;
+    margin:22px 0 12px;
 }
 
-/* VIDEO */
-
-.video-container{
+.video-box{
     width:94%;
     margin:auto;
     background:#000;
@@ -60,110 +54,110 @@ body{
     box-shadow:0 3px 12px rgba(0,0,0,.25);
 }
 
-.video-container video{
-    display:block;
+.video-box video{
     width:100%;
-    height:auto;
+    display:block;
     background:#000;
 }
 
-/* PREMIUM */
-
 .premium{
     text-align:center;
-    margin-top:22px;
+    margin-top:24px;
 }
 
 .premium span{
-    display:inline-block;
-    background:#ffe000;
-    padding:7px 17px;
+    background:#ffe600;
+    padding:7px 16px;
     border-radius:20px;
     font-size:13px;
     font-weight:900;
 }
 
-/* MAIN TITLE */
-
-.main-title{
+.title{
     text-align:center;
-    font-size:29px;
+    font-size:28px;
     font-weight:900;
     margin-top:12px;
+    letter-spacing:.5px;
 }
 
-/* SUBTITLE */
-
-.sub-title{
+.subtitle{
     text-align:center;
     color:#555;
-    font-size:14px;
-    font-weight:700;
-    margin:8px 15px 0;
+    font-size:15px;
+    font-weight:bold;
+    margin-top:8px;
 }
-
-/* RATING */
 
 .rating{
     text-align:center;
     margin-top:13px;
-    font-size:22px;
     color:#ffb400;
+    font-size:21px;
     letter-spacing:2px;
 }
 
 .rating-text{
     color:#555;
     font-size:12px;
-    letter-spacing:0;
+    margin-left:5px;
 }
 
-/* INSTALL BUTTON */
-
-.install-button{
+.install{
     display:block;
     width:88%;
-    margin:23px auto;
+    margin:22px auto;
     padding:17px 10px;
-    background:#18a84b;
-    color:#fff;
+    background:#16a34a;
+    color:white;
     text-align:center;
     text-decoration:none;
     border-radius:8px;
     font-size:21px;
     font-weight:900;
-    box-shadow:0 4px 10px rgba(0,0,0,.20);
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
     transition:.2s;
 }
 
-.install-button:hover{
-    background:#12863c;
+.install:hover{
+    transform:scale(1.02);
+    background:#12843d;
 }
 
-.install-button:active{
-    transform:scale(.97);
-}
-
-/* INFO */
-
-.info{
+.comments-title{
     width:90%;
-    margin:20px auto;
-    padding:13px;
-    background:#f6f6f6;
-    border-radius:7px;
-    text-align:center;
-    font-size:13px;
-    color:#555;
+    margin:25px auto 10px;
+    font-size:17px;
+    font-weight:900;
+    border-bottom:1px solid #ddd;
+    padding-bottom:8px;
 }
 
-/* FOOTER */
+.comment{
+    width:90%;
+    margin:8px auto;
+    background:#f5f5f5;
+    padding:10px;
+    border-radius:7px;
+    font-size:13px;
+}
+
+.comment b{
+    color:#222;
+}
+
+.watch-count{
+    text-align:center;
+    color:#555;
+    font-size:13px;
+    margin-top:15px;
+}
 
 .footer{
     text-align:center;
-    color:#999;
-    font-size:11px;
     margin-top:25px;
+    color:#888;
+    font-size:11px;
 }
 
 </style>
@@ -173,23 +167,17 @@ body{
 
 <div class="container">
 
-    <!-- TOP TITLE -->
-
-    <div class="top-title">
-        Garena Free Fire Team
+    <div class="activity">
+        🔥 Arjun claimed VIP proxy
+        ✅ 1,892 users installed today
+        ⚡
     </div>
 
-
-    <!-- WATCH FULL VIDEO -->
-
-    <div class="watch-title">
+    <div class="watch">
         WATCH FULL VIDEO
     </div>
 
-
-    <!-- UPLOADED VIDEO -->
-
-    <div class="video-container">
+    <div class="video-box">
 
         <video
             controls
@@ -199,69 +187,126 @@ body{
 
             <source src="video.mp4" type="video/mp4">
 
-            Your browser does not support HTML5 video.
+            Your browser does not support the video tag.
 
         </video>
 
     </div>
 
-
-    <!-- PREMIUM -->
-
     <div class="premium">
         <span>NEW PREMIUM</span>
     </div>
 
-
-    <!-- MAIN TITLE -->
-
-    <div class="main-title">
-        PROXY SERVER
+    <div class="title">
+        VIP PROXY SERVER
     </div>
 
-
-    <!-- SUBTITLE -->
-
-    <div class="sub-title">
+    <div class="subtitle">
         FREE FIRE PROXY SERVER UNLIMITED ACCESS
     </div>
-
-
-    <!-- RATING -->
 
     <div class="rating">
         ★★★★★
         <span class="rating-text">4.9/5</span>
     </div>
 
-
     <!-- INSTALL BUTTON -->
 
     <a
-        class="install-button"
-        href="https://1024terabox.com/s/1KpOCmxgq-nRc8c0Spz7tyw"
+        class="install"
+        href="https://1024terabox.com/s/1Y1vlBPHabnWKhw8YI1Fvlw"
         target="_blank"
         rel="noopener noreferrer">
 
-        ⬇ Install
+        ⬇ INSTALL NOW
 
     </a>
 
-
-    <!-- INFO -->
-
-    <div class="info">
-        Watch the full video above and continue by clicking the Install button.
+    <div class="comments-title">
+        Live Comments
     </div>
 
+    <div class="comment">
+        <b>Arjun</b><br>
+        🔥 VIP proxy working perfectly!
+    </div>
 
-    <!-- FOOTER -->
+    <div class="comment">
+        <b>Vikas</b><br>
+        ⚡ Proxy access received.
+    </div>
+
+    <div class="comment">
+        <b>Mohit</b><br>
+        🛡 VIP server activated.
+    </div>
+
+    <div class="comment">
+        <b>Harsh</b><br>
+        ✅ Installed successfully.
+    </div>
+
+    <div class="watch-count">
+        👀 842 watching
+    </div>
 
     <div class="footer">
-        © 2026 Garena Free Fire Team
+        © 2026 VIP Proxy Server
     </div>
 
 </div>
+
+<script>
+
+const activities = [
+    "🔥 Arjun claimed VIP proxy",
+    "⚡ Vikas claimed proxy access",
+    "🛡 Mohit claimed VIP server",
+    "✅ Harsh installed proxy now",
+    "🔥 Rahul claimed VIP proxy",
+    "⚡ Aman installed proxy"
+];
+
+let activityBox = document.querySelector(".activity");
+let i = 0;
+
+setInterval(() => {
+
+    i++;
+
+    if(i >= activities.length){
+        i = 0;
+    }
+
+    activityBox.innerHTML =
+        activities[i] +
+        " ✅ 1,892 users installed today";
+
+}, 3500);
+
+
+let watching = 842;
+
+setInterval(() => {
+
+    let change = Math.random() > .5 ? 1 : -1;
+
+    watching += change;
+
+    if(watching < 800){
+        watching = 800;
+    }
+
+    if(watching > 900){
+        watching = 900;
+    }
+
+    document.querySelector(".watch-count").innerHTML =
+        "👀 " + watching + " watching";
+
+}, 5000);
+
+</script>
 
 </body>
 </html>
